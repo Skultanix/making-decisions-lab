@@ -97,8 +97,8 @@ for(let pizza = 1; pizza < 11; pizza++) {
 
 //CODE HERE
 
-for(let pizza = 1; pizza < 11; pizza++) {
-  console.log(pizza)
+for(let steak = 1; steak < 11; steak++) {
+  console.log(steak)
 }
 
 ////////// PROBLEM 7 //////////
@@ -108,6 +108,10 @@ for(let pizza = 1; pizza < 11; pizza++) {
 */
 
 //CODE HERE
+
+for(let doughnut = 10; doughnut > 0; doughnut--) {
+  console.log(doughnut)
+}
 
 let score = 0
 let passingScore = 7
