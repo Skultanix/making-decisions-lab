@@ -33,7 +33,7 @@ if(amysAge > brittanisAge && amysBirthYear < brittanisBirthYear) {
   console.log(`Amy, at ${amysAge}, is older.`)
 } else if(amysAge < brittanisAge && amysBirthYear > brittanisBirthYear) {
   console.log(`Brittani, at ${brittanisAge}, is older.`)
-} else {console.log(`Neither individusl is older.`)}
+} else {console.log(`Neither individual is older.`)}
 
 ////////// PROBLEM 3 //////////
 
@@ -42,6 +42,12 @@ if(amysAge > brittanisAge && amysBirthYear < brittanisBirthYear) {
 */
 
 //CODE HERE
+
+if(amysBirthYear === brittanisBirthYear) {
+  console.log(`Amy and Britanni were born in the same year.`)
+} else if(amysBirthYear !== brittanisBirthYear) {
+  console.log(`Amy and Britanni were not born the same year.`)
+} else {console.log(`I don't know how but you broke this code.`)};
 
 
 ////////// PROBLEM 4 //////////
