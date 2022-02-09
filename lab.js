@@ -167,3 +167,10 @@ let z = 5
 // Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+ while(z > 0) { 
+   for( soup = z; soup > 0; soup--) {
+     console.log(soup);
+   }
+   z -= 1
+ };
+
