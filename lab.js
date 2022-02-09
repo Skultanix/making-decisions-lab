@@ -84,7 +84,8 @@ if(temperature >= 80 && rain === true) {
 */
 
 //CODE HERE
- for(let pizza = 1; pizza < 11; pizza++) {
+ 
+for(let pizza = 1; pizza < 11; pizza++) {
    console.log(`Hello.`)
  }
 
@@ -96,6 +97,9 @@ if(temperature >= 80 && rain === true) {
 
 //CODE HERE
 
+for(let pizza = 1; pizza < 11; pizza++) {
+  console.log(pizza)
+}
 
 ////////// PROBLEM 7 //////////
 
