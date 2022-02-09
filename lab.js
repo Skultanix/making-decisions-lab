@@ -29,6 +29,11 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
+if(amysAge > brittanisAge && amysBirthYear < brittanisBirthYear) {
+  console.log(`Amy, at ${amysAge}, is older.`)
+} else if(amysAge < brittanisAge && amysBirthYear > brittanisBirthYear) {
+  console.log(`Brittani, at ${brittanisAge}, is older.`)
+} else {console.log(`Neither individusl is older.`)}
 
 ////////// PROBLEM 3 //////////
 
